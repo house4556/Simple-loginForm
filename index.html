@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>Login Form</title>
 
     <!-- ======== CSS ======= -->
     <link rel="stylesheet" href="./css/index.css">
@@ -17,21 +18,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-    <!-- ======= Header ======= -->
-    <header class="header"></header>
-
-    <!-- ======= Nav =======-->
-    <nav class="nav"></nav>
-
     <!-- ======= Section ======= -->
-    <section class="section"></section>
-
-    <!-- ======= Asdie ======= -->
-    <aside class="aside"></aside>
-
-    <!-- ======= footer ======= -->
-    <footer class="footer"></footer>
-
+    <section class="section">
+        <div class="section__container">
+            <div class="section__login-etc">
+                <button class="section__login-button"><i class='bx bxl-instagram bx-tada sns_login-icon'
+                        style='color:#dc00b6'></i></button>
+                <button class="section__login-button"><i class='bx bxl-facebook bx-tada sns_login-icon'
+                        style='color:#0011c4'></i></button>
+                <button class="section__login-button"><i class='bx bxl-google bx-tada sns_login-icon'
+                        style='color:#05c400'></i></button>
+            </div>
+            <h3 class="section__login-title">log-in</h3>
+            <div class="section__login">
+                <form action="" class="section__login-form">
+                    <input type="email" class="section__login-input" id="section__login-id-input"
+                        placeholder="Input Your E-mail">
+                    <input type="password" class="section__login-input" id="section__login-pw-input"
+                        placeholder="Input Your Password">
+                </form>
+            </div>
+            <div class="section__login_find-join">
+                <a href="">아이디 찾기</a>
+                <a href="">비밀번호 찾기</a>
+                <a href="">회원가입</a>
+            </div>
+        <button type="submit" class="section__login-submit">로그인</button>
+        </div>
+    </section>
 </body>
+
 </html>
